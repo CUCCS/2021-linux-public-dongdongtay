@@ -40,21 +40,28 @@
 ### 实验具体内容
 
 1.安装imagemagick。
-`sudo apt-get update`
 
+`sudo apt-get update`
 `sudo apt-get install imagemagick`
+
 2.打开Vscode，利用ssh远程连接虚拟机，将数据复制到虚拟机，编写相关基本，打开终端，输入执行语句，编译脚本程序。
+
 `bash task1.sh -h`
 
 3.将脚本程序编译后得到的图片和相关文本数据下载到宿主机，整理写成实验报告。
 
 ## 实验问题以及解决方法
 1.shell脚本语言语法，例如case，while具体用法示例
+
 A：翻阅课件和利用搜索引擎查询相关知识。
+
 2.VScode ssh远程连接总是提示登录无响应timed out
+
 A:禁用防火墙，只开启22号端口。
+
 `sudo ufw disable`
 `sudo ufw allow 22/tcp 允许所有的外部IP访问本机的22/tcp (ssh)端口`
+
 
 ## 参考资料
 1.https://blog.csdn.net/m0_37864814/article/details/82961927
