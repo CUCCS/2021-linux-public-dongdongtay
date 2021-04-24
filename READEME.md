@@ -57,6 +57,6 @@ A:禁用防火墙，只开启22号端口。
 `sudo ufw allow 22/tcp 允许所有的外部IP访问本机的22/tcp (ssh)端口`
 
 ## 参考资料
-https://blog.csdn.net/m0_37864814/article/details/82961927
-https://github.com/CUCCS/linux-2020-cuc-ty/blob/chap0x04/chap0x04/chap0x04_report.md
-https://github.com/CUCCS/linux-2020-LyuLumos/tree/ch0x04
+1.https://blog.csdn.net/m0_37864814/article/details/82961927
+2.https://github.com/CUCCS/linux-2020-cuc-ty/blob/chap0x04/chap0x04/chap0x04_report.md
+3.https://github.com/CUCCS/linux-2020-LyuLumos/tree/ch0x04
